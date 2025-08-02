@@ -1,0 +1,183 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav .logo h1 {
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+nav .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+nav .nav-links li {
+    margin: 0 15px;
+}
+
+nav .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s;
+}
+
+nav .nav-links a:hover {
+    color: #f39c12;
+}
+
+nav .search-bar {
+    display: flex;
+    align-items: center;
+}
+
+nav .search-bar input {
+    padding: 8px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+nav .search-bar button {
+    background-color: #f39c12;
+    border: none;
+    padding: 8px 15px;
+    font-size: 14px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav .search-bar button:hover {
+    background-color: #e67e22;
+}
+
+main {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.hero {
+    background: url('https://via.placeholder.com/1500x500/FF6347/ffffff?text=Perfume+Collection') no-repeat center center/cover;
+    padding: 100px 0;
+    color: white;
+}
+
+.hero h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.perfume-collection {
+    margin-top: 50px;
+}
+
+.perfume-collection h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.perfume-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+    justify-items: center;
+}
+
+.perfume-item {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.perfume-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.perfume-item img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.perfume-details {
+    padding: 15px;
+    text-align: center;
+}
+
+.perfume-details h3 {
+    font-size: 24px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.perfume-details p {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.perfume-details button {
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.perfume-details button:hover {
+    background-color: #e67e22;
+}
+
+.submit-form {
+    margin-top: 50px;
+}
+
+.submit-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: auto;
+}
+
+.submit-form input, .submit

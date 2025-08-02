@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HIDA PERFUMES</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>HIDA PERFUMES</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Search perfumes...">
+                <button id="search-btn">Search</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Discover the Essence of Luxury</h2>
+            <p>Explore the finest perfumes from HIDA PERFUMES.</p>
+        </section>
+
+        <section class="perfume-collection">
+            <h2>Our Perfume Collection</h2>
+            <div class="perfume-gallery">
+                <!-- Perfume 1 -->
+                <div class="perfume-item">
+                    <img src="./images/perfume_four.jpg" alt="Perfume 1">
+                    <div class="perfume-details">
+                        <h3>Classic Rose</h3>
+                        <p>A timeless scent with the delicate fragrance of fresh roses.</p>
+                        <button>Buy Now</button>
+                    </div>
+                </div>
+
+                <!-- Perfume 2 -->
+                <div class="perfume-item">
+                    <img src="./images/perfume_one.jpg">
+                    <div class="perfume-details">
+                        <h3>Vanilla Blossom</h3>
+                        <p>A sweet and warm fragrance, perfect for any occasion.</p>
+                        <button>Buy Now</button>
+                    </div>
+                </div>
+
+                <!-- Perfume 3 -->
+                <div class="perfume-item">
+                    <img src="./images/perfume_two.jpg" alt="Perfume 3">
+                    <div class="perfume-details">
+                        <h3>Oud Elegance</h3>
+                        <p>A luxurious and rich scent of oriental oud wood.</p>
+                        <button>Buy Now</button>
+                    </div>
+                </div>
+
+                <!-- Perfume 4 -->
+                <div class="perfume-item">
+                    <img src="./images/perfume_three.jpg" alt="Perfume 4">
+                    <div class="perfume-details">
+                        <h3>Lavender Dream</h3>
+                        <p>A calming fragrance with notes of lavender and chamomile.</p>
+                        <button>Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="submit-form">
+            <h2>Submit Your Feedback</h2>
+            <form id="feedback-form">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Your Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+                <button type="submit">Submit Feedback</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 HIDA PERFUMES. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
